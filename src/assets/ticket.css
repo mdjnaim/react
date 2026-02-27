@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 400px;
+  background-color: #b3f16256;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.container h1 {
+  color: #333;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.age label {
+  color: #333;
+  font-size: 18px;
+  margin-right: 80px;
+  font-weight: bold;
+  display: block;
+}
+
+.student label {
+  color: #333;
+  font-size: 18px;
+  margin-right: 50px;
+  font-weight: bold;
+  display: block;
+}
+
+.calculate button {
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  background-color: #1fd8a77a;
+  color: rgb(5, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reset button {
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  background-color: #1fd8a77a;
+  color: rgb(5, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.calculate button:hover {
+  background-color: #1fd8a7;
+}
+.reset button:hover {
+  background-color: #1fd8a7;
+}
