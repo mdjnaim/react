@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  width: 400px;
+  background-color: rgba(243, 174, 118, 0.43);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+  color: rgb(11, 11, 11);
+  background-color: rgba(255, 255, 255, 0.67);
+  border: none;
+  border-radius: 5px;
+}
+
+.btn button {
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+  color: rgb(11, 11, 11);
+  background-color: rgba(168, 121, 33, 0.293);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(11, 11, 11);
+}
