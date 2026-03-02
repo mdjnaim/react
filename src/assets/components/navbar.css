@@ -1,0 +1,79 @@
+nav-container {
+  width: 100%;
+  padding: 1rem 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-logo-container img {
+  width: 130px;
+  cursor: pointer;
+  margin-left: 15px;
+  margin-top: 40px;
+}
+
+.nav-links-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-left: 900px;
+}
+
+.nav-links-container a {
+  color: #333;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links-container a:hover {
+  color: #ff6b00;
+}
+
+.nav-cart-icon {
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.primary-button {
+  padding: 0.6rem 1.5rem;
+  border-radius: 30px;
+  border: none;
+  background: #ff6b00;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.primary-button:hover {
+  background: #e55d00;
+}
+
+.nav-menu-container {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.MuiDrawer-paper {
+  padding: 2rem;
+}
+
+.MuiListItemButton-root {
+  border-radius: 12px !important;
+  transition: 0.3s !important;
+}
+
+.MuiListItemButton-root:hover {
+  background: #ff6b00 !important;
+  color: white !important;
+}
+
+.MuiListItemIcon-root {
+  color: inherit !important;
+}
