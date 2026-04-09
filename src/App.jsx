@@ -8,6 +8,7 @@ import List from './components/list'
 import Form from './components/form'
 import UseEffectExample from './components/useeffect' 
 import UseRefExample from './components/useref'
+import UseMemoExample from './components/usememo'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,6 +24,7 @@ function App() {
         <Form />
         <UseEffectExample />
         <UseRefExample />
+        <UseMemoExample />
       </div>
   )
 }
