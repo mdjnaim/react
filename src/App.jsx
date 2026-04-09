@@ -9,6 +9,7 @@ import Form from './components/form'
 import UseEffectExample from './components/useeffect' 
 import UseRefExample from './components/useref'
 import UseMemoExample from './components/usememo'
+import Rout from './components/rout'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,6 +26,7 @@ function App() {
         <UseEffectExample />
         <UseRefExample />
         <UseMemoExample />
+        <Rout />
       </div>
   )
 }
