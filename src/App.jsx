@@ -4,6 +4,7 @@ import PropsExample from './components/props'
 import StateExample from './components/state'
 import EventExample from './components/event'
 import ConditionalRendering from './components/cnditional_rendering'
+import List from './components/list'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <StateExample />
         <EventExample />
         <ConditionalRendering />
+        <List />
       </div>
   )
 }
