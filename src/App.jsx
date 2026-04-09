@@ -10,6 +10,7 @@ import UseEffectExample from './components/useeffect'
 import UseRefExample from './components/useref'
 import UseMemoExample from './components/usememo'
 import Rout from './components/rout'
+import FetchData from './components/fetchdata'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,6 +28,7 @@ function App() {
         <UseRefExample />
         <UseMemoExample />
         <Rout />
+        <FetchData />
       </div>
   )
 }
