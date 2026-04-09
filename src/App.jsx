@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import JSXBasic from './components/jsx_basic'
+import PropsExample from './components/props'
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
   return (
       <div>
         <JSXBasic />
+        <PropsExample />
       </div>
   )
 }
