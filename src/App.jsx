@@ -5,6 +5,7 @@ import StateExample from './components/state'
 import EventExample from './components/event'
 import ConditionalRendering from './components/cnditional_rendering'
 import List from './components/list'
+import Form from './components/form'
 
 
 function App() {
@@ -18,6 +19,8 @@ function App() {
         <EventExample />
         <ConditionalRendering />
         <List />
+        <Form />
+
       </div>
   )
 }
